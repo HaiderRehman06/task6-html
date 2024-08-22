@@ -14,3 +14,5 @@ document.addEventListener('mousemove', (e) => {
 
   coffeeCup.style.transform = `rotateX(${rotX}deg) rotateY(${rotY}deg)`;
 });
+// fixme: write a program to find the integer in js
+const findinteger = 
