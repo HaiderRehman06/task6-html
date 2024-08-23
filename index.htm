@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>3D Coffee Cup</title>
   <link rel="stylesheet" href="./style.css">
 </head>
@@ -11,22 +11,26 @@
       <!--idea: Header Section -->
 
        <header>
-          <nav>
+        <nav>
+          <ul class="nav-bar">
             <img src="./logos/landing-logo-img.png" class="logo">
-
-            <ul >
+            <input type='checkbox' id='check' />
+              <span class="menu">
               <li id="Ho"><a  href="#">Home</a></li>
               <li id="Co"><a  href="#">Coffee</a></li>
               <li id="Be"><a  href="#">Beans</a></li>
               <li id="Ct"><a href="#">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="CWA">
-            <h1>Coffee With ALAM</h1>
-              <p>Roast your own coffee</p>
-            <button>View Menu</button>
-          </div>
-        
+              <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+              </span>
+            
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+          </ul>
+        </nav>
+        <div class="CWA">
+          <h1>Coffee With ALAM</h1>
+            <p>Roast your own coffee</p>
+          <button>View Menu</button>
+        </div>
        </header>
        
        <!-- idea: Coffee Section -->
@@ -102,7 +106,11 @@
             <img src="./items/intro-pic.png" >
           </div>
           <div>
-            <p>The exact origin of coffee is unknown, but it is believed to have been discovered in Ethiopia around the 9th century. Coffee quickly spread throughout the Middle East and North Africa, and eventually made its way to Europe in the 16th century. By the 17th century, coffee had become a popular drink in Europe and North America.</p>
+            <p>The exact origin of coffee is unknown, but it is believed 
+              to have been discovered in Ethiopia around the 9th century. 
+              Coffee quickly spread throughout the Middle East and North Africa, 
+              and eventually made its way to Europe in the 16th century. By the 17th century,
+               coffee had become a popular drink in Europe and North America.</p>
           </div>
         </div>
 
