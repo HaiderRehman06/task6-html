@@ -33,8 +33,14 @@ nav{
     justify-content: space-between ;
     align-items: center;
 }
-nav .logo{
+.logo{
     width: 70px;
+    animation: fade-out linear forwards;
+    animation-duration: 1s;
+}
+@keyframes fade-out{
+    from{opacity: 0;}
+    
 }
 nav ul li{
     padding-inline: 10px;
@@ -48,12 +54,33 @@ nav ul li a{
     color: black;
     background: rgb(255, 255, 255, .5);
 }
+#Ho{
+    animation: jump linear forwards;
+    animation-duration: 1.3s ;
+}
+#Co{
+    animation: jump linear forwards;
+    animation-duration: 1s ;
+}
+#Be{
+    animation: jump linear forwards;
+    animation-duration: 0.5s ;
+}
+#Ct{
+    animation: jump linear forwards;
+    animation-duration: 0.2s ;}
+@keyframes jump{
+    from{opacity: 0; transform: translateX(100%);}
+}
 .CWA h1{
     font-family: "Caveat", cursive;
     font-size: 100px;
     color: white;
-    animation: fade-right linear forwards;
-    animation-duration: 1s;
+    animation: slid-down linear forwards;
+    animation-duration: 0.8s;
+}
+@keyframes slid-down{
+    from{transform: translateY(-50%);opacity: 0;}
 }
 .CWA h1:hover{
     -webkit-text-stroke: 2px black;
@@ -61,10 +88,16 @@ nav ul li a{
     cursor: pointer;
     transition: 0.5s;
 }
+
 .CWA p{
     font-family: "Qwitcher Grypen",cursive;
     font-size: 60px;
     color: white;
+    animation: slide-right linear forwards;
+    animation-duration: 0.7s;
+}
+@keyframes slide-right{
+    from{transform: translateX(40%);opacity: 0;}
 }
 .CWA button{
     padding: 12.5px;
