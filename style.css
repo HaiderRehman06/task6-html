@@ -160,14 +160,43 @@ h1{
 }
 .cold-coffee div{
     width: 180px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: wheat;
     text-align: center;
 }
 .cold-coffee img{
     padding: 5%;
     border-radius: 15px;
+    
+}
+/* todo: Beans Section */
+.BN{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom:10% ;
+    font-size: 50px;
+}
+.bean{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.bean p{ 
+    text-align: center;
+    font-family: 'Poppins';
+    padding-bottom:10px ;
+    margin-top: -10px;
+}
+.bean div{
+    padding-bottom: px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px black,-2px 3px 10px black;
+}
+.bean img{
     width: 150px;
+    height: 200px;
+    margin-top: -100px;
 }
 
 /* todo: Footeer section */
