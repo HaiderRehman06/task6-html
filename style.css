@@ -7,7 +7,10 @@
     padding: 0;
     box-sizing:border-box ;
 }
-/* Idea: Header section */
+html{
+    scroll-behavior: smooth;
+}
+/* todo: Header section */
 header{
     background-image: url(./images/bg-pic.png);
     background-position: center;
@@ -79,7 +82,7 @@ nav ul li a{
     
 }
 
-/* BUG : Coffee Section */
+/* todo: Coffee Section */
 
 .row-1 img{
     margin-top:-30px;
@@ -125,7 +128,7 @@ h1{
     text-align: center;
     font-size: 50px;
 }
-/* info: Introduction Section */
+/* todo: Introduction Section */
 .intro{
     margin: 5% 5%;
     display: flex;
@@ -133,13 +136,41 @@ h1{
     align-items: center;
 }
 .intro img{
-    width: 200px;
+    width: 300px;
 }
 .intro p{
     font-family: 'Poppins';
     margin-left: 20px;
 }
-/* lol: Footeer section */
+
+/* todo:Cold Coffee  Section */
+.CS{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5% ;
+}
+.cold-coffee p{
+    font-family: 'Poppins';
+    margin-bottom: 15px;
+}
+.cold-coffee{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cold-coffee div{
+    width: 180px;
+    border-radius: 10px;
+    background-color: wheat;
+    text-align: center;
+}
+.cold-coffee img{
+    padding: 5%;
+    border-radius: 15px;
+    width: 150px;
+}
+
+/* todo: Footeer section */
 
 .flex{
     margin-top: 5%;
