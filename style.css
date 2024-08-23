@@ -113,7 +113,8 @@ nav ul li a{
     width: 200px;
     height: 250px;
     background-color: wheat;
-    margin-top: 10%;
+   
+    margin: 5% 5%;
 }
 .row-1 button{
     width: 80%;
@@ -147,18 +148,20 @@ h1{
 .CS{
     text-align: center;
     font-size: 50px;
-    margin-bottom: 5% ;
-}
+    margin-bottom: 30px;
+    }
 .cold-coffee p{
     font-family: 'Poppins';
     margin-bottom: 15px;
 }
 .cold-coffee{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
 .cold-coffee div{
+    margin:2% 5%;
     width: 180px;
     border-radius: 5px;
     background-color: wheat;
@@ -172,7 +175,7 @@ h1{
 /* todo: Beans Section */
 .BN{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom:10% ;
     font-size: 50px;
 }
@@ -189,6 +192,7 @@ h1{
     margin-top: -10px;
 }
 .bean div{
+    margin: 0 5%;
     padding-bottom: px;
     border-radius: 10px;
     box-shadow: 2px 3px 10px black,-2px 3px 10px black;
@@ -221,3 +225,89 @@ h2{
     width: 25px;
 }
 
+@media (max-width:1050px){
+    .BN{
+        margin-bottom: -3%;
+    }
+    .bean div{
+        margin-top: 15%;
+    }
+
+}
+@media (max-width:770px){
+    .CWA h1{
+        font-size: 80px;
+        margin-top: 50px;
+    }
+    nav .logo{
+        width: 50px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+}
+@media (max-width:655px){
+    nav .logo{
+        width: 40px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+
+    .CWA h1{
+        font-size: 60px;
+    }
+    .CWA p{
+        font-size: 40px;
+    }
+    .CE{
+        margin-bottom: 40px;
+    }
+    .CE,.BN,.CS{
+        font-size: xx-large;
+    }
+    .intro{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .intro img{
+        width: 250px;
+    }
+    .intro p{
+        font-size:small;
+    }
+    #contact img{
+        width: 18px;
+    }
+    .flex{
+        margin-top: 50px;
+        font-size: small;
+    }
+    .BN{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .bean div{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+@media (max-width:420px){
+    nav ul li a{
+        padding-inline: 1px ;
+        padding: 4px;
+    }
+    .CWA h1{
+        margin-top: -40px;
+        font-size: 40px;
+    }
+    .CWA p{
+        font-size: 30px;
+    }
+    .CWA Button{
+        width: 40%;
+        font-size: 13px;
+    }
+
+}
